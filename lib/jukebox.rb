@@ -46,10 +46,12 @@ end
 
 def run(songs)
   help()
-  puts  "Please enter a command:"
-  user_response = gets.chomp
+ 
+  user_response = nil
   
   while user_response != "exit"
+    puts  "Please enter a command:"
+    user_response = gets.chomp
     if user_response == "list"
       list(songs)
     elsif user_response == "play"
