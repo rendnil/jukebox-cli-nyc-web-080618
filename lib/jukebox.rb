@@ -46,7 +46,7 @@ end
 
 def run(songs)
   help()
- 
+
   user_response = nil
   
   while user_response != "exit"
@@ -70,4 +70,4 @@ end
 #help
 #list(songs)
 #play(songs)
-run(songs)
+#run(songs)
